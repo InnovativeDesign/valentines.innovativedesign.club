@@ -91,7 +91,7 @@ body {
 
 @media only screen and (max-width: 1000px) {
     .full-width {
-        max-width: 90%;
+        max-width: 90vw;
     }
 }
 

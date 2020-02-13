@@ -117,30 +117,5 @@ for (let i = 0; i < imgs.length; i++) {
     });
 
     container.appendChild(card);
-
-    // let img = document.createElement("img");
-
-    // if (imgIndex <= 6) {
-    //     img.className = "full-height";
-    // } else {
-    //     img.className = "full-width";
-    // }
-    
-    // if (imgIndex >= 14) {
-    //     img.src = "img/" + imgIndex + ".jpg";
-    // } else {
-    //     img.src = "img/" + imgIndex + ".png";
-    // }
-
-    // container.appendChild(img);
-
-    // if (imgIndex == 6 || imgIndex == 7 || imgIndex == 8) {
-    //     let imgBack = document.createElement("img");
-    //     imgBack.className = img.className + " back";
-    //     imgBack.src = "img/" + imgIndex + "_back.png";
-    //     container.appendChild(imgBack);
-    //     console.log("added back");
-    // }
-
     document.body.append(container);
 }
