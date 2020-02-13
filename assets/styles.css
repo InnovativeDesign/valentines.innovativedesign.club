@@ -57,13 +57,13 @@ body {
 }
 
 .card .card-front {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 }
 
 .card .card-back {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     transform: rotateY(180deg);
 }
 
@@ -112,7 +112,7 @@ body {
     right: 20px;
 
     height: 98px;
-    width: 200px;
+    width: 201px;
 
     border-radius: 10px;
     background-color: white;
